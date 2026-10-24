@@ -1,5 +1,6 @@
 //ARRAY
 const produtosb = ["Arroz 5kg", 24,90, "Mercearia"]
+console.log(produtosb)
 
 
 //Objeto ou Lista para quem veio do pyton
@@ -63,6 +64,24 @@ const produtoString = JSON.stringify(produtos)
 localStorage.setItem("Produtos", produtoString)
 
 // 1 - adicionar 3 produtos no final do array usando .push()
+produtos.push(
+    {
+        nome: "Tangue Guanara",
+        preco: 0.50,
+        categoria:"Mecearia"
+    },
+
+    {
+        nome: Iorgute,
+        preco:5,
+        categoria:Laticinios
+    },
+    {
+        nome: "bombom beijinho",
+        preco: 64,
+        categoria: "Mercearia"
+    }
+)
 
 // 2 - usar o filter() para achar o produto mais barato 
 
